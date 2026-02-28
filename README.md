@@ -2,9 +2,9 @@
 
 > Name TBD -- working title only.
 
-AI-powered career preparation tools built with [Claude Code](https://docs.anthropic.com/en/docs/claude-code). These aren't generic chatbot wrappers -- they're multi-agent systems that encode how I actually think about career positioning, built on a decade of coaching, mentoring, and professional development work.
+AI-powered career preparation tools built with [Claude Code](https://docs.anthropic.com/en/docs/claude-code). By trade, I'm a Product Manager - my day to day is focusing on building AI tools for underwriters. Outside of work, I really value professional developmennt. I've been the recipient of great mentoring, coaching, and peer groups. I find that this is one of the most natural places I add value to my friends and to my network... and since I'm finding ways to tinker with Claude - this is where I'm starting. I'm building multi-agent systems that encode how I actually think about career positioning, built on a decade of coaching, mentoring, and professional development work.
 
-I've been doing this work since undergrad -- career center coaching, casing hundreds of students through MLT, leading professional development at Wharton. These tools automate the preparation workflow I've refined through years of helping people (and myself) navigate high-stakes career moments.
+I've been doing this work since undergrad -- career center coaching, casing hundreds of students through Deloitte & MLT, leading professional development efforts at Wharton. These tools automate the preparation workflow I've refined through years of helping people (and myself) navigate high-stakes career moments.
 
 **Femi Brinson** -- Senior Product Strategist at a Fortune 100 insurer, leading AI product development for a $1B+ underwriting book. Ex-Google (Strategy & Ops), Wharton MBA.
 
