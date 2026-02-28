@@ -14,11 +14,9 @@ I've been doing this work since undergrad -- career center coaching, casing hund
 
 | Project | What It Does | Key Differentiator |
 |---------|-------------|-------------------|
+| [Career Board](./career-board/) | Personal board of directors with path assessment | Baseline intake, introspective discovery, dynamic board assembly -- adapts to any industry or career stage |
 | [Interview Prep](./interview-prep/) | Company + role research with recruiter correspondence search | Parallel agents for company, role, email, and question generation -- produces a day-of reference card |
-| [Resume Tailor](./resume-tailor/) | Template-based resume tailoring from job descriptions | Fit scoring, template selection across three career tracks, automated tracker updates |
-
-**Coming soon:**
-- **Path Assessment** -- Helps you evaluate which career track fits a given opportunity (Product vs. Strategy vs. PE Operations) and how to position accordingly.
+| [Resume Tailor](./resume-tailor/) | Template-based resume tailoring from job descriptions | Fit scoring, template selection across career directions, automated tracker updates |
 
 ---
 
