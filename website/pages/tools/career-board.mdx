@@ -1,0 +1,90 @@
+# Career Board
+
+> Assemble a personal board of directors for a career decision. Structured deliberation, not generic advice.
+
+## What It Does
+
+Career Board creates a panel of 5-7 AI advisors, each with a distinct analytical lens, and has them independently research and deliberate on your career decision. They disagree where it matters. The output is a structured synthesis: where the board agrees, where they clash, and a clear recommendation with conditions.
+
+Every board member has a research mandate. No opinions without evidence. Generic advice is banned.
+
+## When to Use It
+
+- **You're torn on a big decision.** Take this offer or stay? Pivot or double down?
+- **You want structured pushback.** Not encouragement — real challenge to your assumptions.
+- **You're navigating something complex.** Multiple variables, unclear tradeoffs, high stakes.
+
+## What You'll Need
+
+- A completed career profile (run `/baseline` first)
+- A clear description of the decision or situation
+- 10-15 minutes
+- Optionally: a job listing, offer details, or other context
+
+## How It Works
+
+**Step 1: Describe your situation.** The system asks a few deepening questions. What a great outcome looks like, what keeps you up at night, what kind of pushback would actually help.
+
+**Step 2: The system classifies your moment** and selects the right board composition:
+
+| Moment | Board Composition |
+|--------|-------------------|
+| Path Check | Domain Expert + Skeptic + Pattern Matcher + Mirror |
+| Offer Evaluation | Negotiator + Skeptic + Narrator + Connector + Compass |
+| Pivot Planning | Bridge Builder + Domain Expert + Pattern Matcher + Narrator |
+| Negotiation | Negotiator + Skeptic + Mirror + Connector |
+| Direction Finding | Compass + Mirror + Pattern Matcher + Narrator |
+
+You can adjust the board before it starts.
+
+**Step 3: Choose your format:**
+1. **Full Board (5-7 members)** — big decisions, offer evaluations
+2. **Duo (2 members)** — quick gut-check, two competing perspectives
+3. **Sprint Check (3 members)** — weekly accountability: what moved, what stalled
+
+**Step 4: Parallel deliberation.** All board members launch simultaneously. Each one researches independently, forms a position (for/against/conditional), and produces an evidence-backed analysis with a specific pushback question.
+
+**Step 5: Synthesis** — areas of agreement, where they clash (with quotes), and a clear recommendation.
+
+## The Board Members
+
+| Persona | Lens | Recurring Question |
+|---------|------|-------------------|
+| **Pattern Matcher** | Career archetypes and market patterns | "What usually happens when someone in your position makes this choice?" |
+| **Skeptic** | Hidden risks, stress-testing assumptions | "What's the version of this that goes wrong?" |
+| **Narrator** | Positioning, visibility, career story | "How does this chapter read to the people who matter?" |
+| **Connector** | Relationships, network effects | "Who do you gain access to — and who do you lose?" |
+| **Mirror** | Values alignment, internal consistency | "Does this match what you said mattered to you?" |
+| **Compass** | Long-term direction, life alignment | "In 10 years, which version of you is happiest?" |
+| **Negotiator** | Compensation, leverage, tactics | "What's your walk-away number, and do you mean it?" |
+| **Bridge Builder** | Transition planning, gap closing | "What's the shortest credible path from here to there?" |
+| **Domain Expert** | Deep knowledge of the target world | "What do insiders actually value vs. what outsiders assume?" |
+
+The Domain Expert adapts to your context. A nonprofit pivot gets nonprofit expertise, a tech career gets engineering culture expertise.
+
+## What the Output Looks Like
+
+- **Board summary table** — each member's position (for/against/conditional) and confidence level
+- **Where they agree** — consensus points with reasoning
+- **Where they clash** — direct quotes from opposing members with implications
+- **Synthesis** — the moderator's integration of all perspectives
+- **Recommendation** — clear, with conditions
+- **What to do this week** — 3 specific actions
+- **The question you should sit with** — one reflective question without an easy answer
+
+## Example Usage
+
+```
+/career-board "Should I take this offer from Stripe or stay at my current company?"
+```
+
+```
+/career-board
+```
+Then describe your situation when prompted.
+
+## What to Do Next
+
+- **[Assess Opportunity](/tools/assess-opportunity)** — if the board pointed you toward a specific opportunity
+- **[Explore Paths](/tools/explore-paths)** — if the board surfaced a new direction worth exploring
+- **[Prep Interview](/tools/prep-interview)** — if you've decided to move forward

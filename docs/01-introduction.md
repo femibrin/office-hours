@@ -1,0 +1,68 @@
+# Introduction
+
+## What Is Office Hours?
+
+Office Hours is a set of AI career tools that run in your terminal. You type a command, have a conversation, and get structured output — a career profile, a path exploration, a tailored resume, interview prep.
+
+It's built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), an AI assistant from Anthropic that runs directly on your computer. Unlike ChatGPT or a web chatbot, Claude Code can read your files, search the web, and produce real documents — all from a terminal window.
+
+You don't need to know how to code. You don't need to be technical. If you can open a terminal and type a sentence, you can use this.
+
+## What Can It Do?
+
+| Tool | What It Does | Time |
+|------|-------------|------|
+| **Build a career profile** | Extracts your experience arc, skills, strengths, and aspirations from a resume or conversation | 5-10 min |
+| **Explore career paths** | Researches 2-3 career directions with real market data, comp ranges, and fit analysis | 10-15 min |
+| **Create resume templates** | Builds a resume version optimized for each career direction | 5-10 min |
+| **Assess a job opportunity** | Analyzes a job listing — company research, fit scoring, honest recommendation | 5-10 min |
+| **Deep dive on a role** | Thorough research on a company, team, and role | 10-15 min |
+| **Assemble a career board** | 5-7 AI advisors deliberate on a career decision with real research | 10-15 min |
+| **Tailor a resume** | Customizes your resume for a specific job listing — updates bullets, not formatting | 5-10 min |
+| **Prep for an interview** | Parallel research agents produce a prep doc + quick reference card | 5-10 min |
+| **Review a resume** | Specific, actionable feedback with rewrite suggestions | 5-10 min |
+
+## Two Ways to Use It
+
+**The deep path** — for career inflection points:
+```
+/baseline → /explore-paths → resume templates → /tailor-resume → /prep-interview
+```
+Build a profile, explore directions, create resume templates for each path, then tailor and prep as opportunities come up. This is the most powerful flow.
+
+**The quick path** — for "I need this now":
+```
+/tailor-resume → paste resume + paste JD → tailored resume
+```
+No profile, no setup. Just results.
+
+## What You Need
+
+- A Mac or Windows computer
+- 15 minutes for setup
+- A Claude subscription ($20/month for Pro — [sign up here](https://claude.ai))
+
+That's it. No coding experience, no API keys, no other tools.
+
+## Voice-Enabled
+
+Every tool works great by typing. But if you'd rather talk than type, Femi recommends [Wispr Flow](https://www.wispr.flow/) — it lets you dictate anywhere on your Mac. You'll see multiple-choice prompts throughout the tools, so you can just say "option 2" instead of typing. Totally optional, but worth trying.
+
+## How Is This Different from ChatGPT?
+
+Prompting ChatGPT or Claude in a browser gives you a single-pass answer. Office Hours orchestrates multi-step workflows:
+
+- **Multiple research agents run in parallel.** Interview prep launches 4 agents simultaneously — company research, role analysis, email search, and question generation.
+- **Your profile persists.** Build it once, and every tool starts with context about who you are. No re-explaining yourself.
+- **Output is structured and actionable.** Fit scores, comparison matrices, STAR-format interview answers, formatted resumes. Not a wall of text.
+- **It reads your files and searches the web.** Fetch job listings, read your resume, save tailored documents — all without copy-pasting.
+
+## Who Built This
+
+**Femi Brinson** — Senior Product Manager building AI products at a Fortune 100 insurer. Ex-Google (Strategy & Ops), Wharton MBA. Has been doing career coaching since undergrad — career center at UGA, casing hundreds of students through Deloitte and MLT, leading professional development at Wharton — and built these tools to scale what he's always done in person.
+
+**Courtnee Futch** — The other half of Office Hours. Chef, entrepreneur, and the person who first said "this should be a product, not just something you do for friends." The community ethos behind Office Hours comes from both of us.
+
+---
+
+**Next:** [Installation →](./02-installation.md)

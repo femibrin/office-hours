@@ -1,0 +1,75 @@
+# Explore Paths
+
+> Deep dive into career directions: where you've been, where you could go.
+
+## What It Does
+
+Explore Paths takes the career directions from your profile and turns them into researched, scored assessments with real market data. For each direction, it analyzes transferable skills, identifies gaps, estimates timelines, benchmarks compensation, and gives you an honest fit score. Then it offers to build a resume template optimized for each path, so when opportunities come up, you're ready.
+
+This is the highest-leverage tool in the toolkit, turning vague career curiosity into concrete, comparable options.
+
+## When to Use It
+
+- **You know it's time for a change but don't know what direction.** This maps the landscape.
+- **You have 2-3 ideas and want to compare them seriously.** Real data, not vibes.
+- **After `/baseline`.** Your profile feeds the research. The more it knows about you, the sharper the analysis.
+
+## What You'll Need
+
+- A completed career profile (run `/baseline` first)
+- 10-15 minutes
+- Optionally: a specific direction you're curious about
+
+## How It Works
+
+**Step 1: What's driving the exploration?** You'll see options like:
+1. I got an offer and I'm not sure if it's the right move
+2. I'm feeling stuck and want to see what's out there
+3. I know I want a change but I'm not sure what direction
+4. I'm happy but curious — what else could I do with my background?
+
+**Step 2: Parallel research.** The system launches research agents — one per career direction — to gather real market data before forming opinions. Each agent searches for compensation ranges, market demand, day-to-day realities, entry points for someone with your background, and people succeeding in the space.
+
+**Step 3: Fit analysis.** For each path, you get:
+- Transferable skills and what directly applies
+- Gaps and how hard they are to close
+- A credibility bridge — how to tell the story of "why this path"
+- Timeline to being competitive
+- Risk profile — what you're giving up
+
+**Step 4: Comparison and pushback.** A side-by-side comparison matrix, plus honest pushback on things you might be over- or under-weighting.
+
+**Step 5: Resume templates (optional).** If 2-3 directions emerged, the system offers to create a resume template for each — same structure, different emphasis. This is powerful: every time you run `/tailor-resume` later, the system picks the right template automatically.
+
+## What the Output Looks Like
+
+A path exploration document with:
+
+- **Fit scores** (X/10) for each direction
+- **Market data** — comp ranges, demand signals, key companies
+- **Entry strategies** — specific first steps for each path
+- **Comparison matrix** — skills fit, gap size, time to competitive, comp trajectory, energy alignment, risk level
+- **Pushback** — things a good career coach would challenge you on
+- **Resume templates** (if created) — one per direction, saved to `~/.office-hours/templates/`
+
+## Example Usage
+
+```
+/explore-paths
+```
+
+Or with a specific direction in mind:
+
+```
+/explore-paths "I'm thinking about product management"
+```
+
+```
+/explore-paths "Should I stay in consulting or try something new?"
+```
+
+## What to Do Next
+
+- **[Assess Opportunity](/tools/assess-opportunity)** — found a specific role on one of your paths? Analyze it.
+- **[Tailor Resume](/tools/tailor-resume)** — your new templates are ready. Tailor one for a real job listing.
+- **[Career Board](/tools/career-board)** — still torn? Assemble a board of advisors to stress-test the decision.

@@ -1,0 +1,117 @@
+{/* Landing page */}
+
+<div className="mx-auto max-w-4xl px-4 py-16">
+
+<div className="text-center mb-16">
+
+# Office Hours
+
+<p className="text-xl mt-4 text-gray-400">AI-powered tools for people navigating what's next. Built for community, powered by Claude Code.</p>
+
+<div className="mt-8">
+  <a href="/getting-started/introduction" className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors no-underline">Get Started</a>
+</div>
+
+</div>
+
+---
+
+## What Is This?
+
+Office Hours started the way a lot of good things start: with people showing up for each other.
+
+Courtnee and I have always held "office hours." Not the academic kind, but the kind where you text your friend "hey, can I get 30 minutes?" and end up talking through a career decision, rewriting resume bullets, or prepping for an interview. We both believe that your network is your most valuable asset, and that showing up for people is how you build it. Over the years, these conversations became a practice, for us and for the people around us.
+
+These tools are that practice, systematized. They're built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), an AI assistant that runs in your terminal. You type a slash command and get guided through a structured workflow: building a career profile, exploring directions, analyzing opportunities, tailoring resumes, preparing for interviews. The same things we'd do sitting across from you, but available whenever you need them.
+
+The career tools are where we started, but Office Hours is bigger than that. It's a way our community gives back — making the kind of coaching and preparation that used to require knowing the right people accessible to everyone in our circle. And as we build more, the toolkit will grow beyond career into whatever our community needs most.
+
+---
+
+## The Tools
+
+| Command | What It Does |
+|---------|-------------|
+| `/start` | **Start here** — Claude Code primer + toolkit overview |
+| `/baseline` | Build your career profile — the foundation everything else uses |
+| `/explore-paths` | Deep dive into career directions: where you've been, where you could go |
+| `/assess-opportunity` | Analyze a job listing: company research, fit scoring, honest assessment |
+| `/deep-dive-role` | Thorough research on a role, team, or company |
+| `/career-board` | Assemble a personal board of directors for a career decision |
+| `/tailor-resume` | Tailor your resume for a specific job listing |
+| `/prep-interview` | Multi-agent interview prep: company, role, email search, questions |
+| `/resume-review` | Resume critique with specific, actionable feedback |
+
+---
+
+## Choose Your Own Adventure
+
+**The deep path** — figure out where you're going, then build the infrastructure to get there:
+
+```
+/baseline          → Build your career profile (once)
+    ↓
+/explore-paths     → Explore 2-3 career directions
+    ↓                 → Creates a resume template for each direction
+/assess-opportunity → Analyze a specific role
+    ↓
+/tailor-resume     → Auto-selects the best template and tailors it
+    ↓
+/prep-interview    → Prepare for the interview
+```
+
+This is the most powerful flow. After `/explore-paths`, you'll have resume templates optimized for each career direction, so every time you run `/tailor-resume`, the system picks the right template and tailors from there.
+
+**The quick path** — you know what you want, just need the output:
+
+```
+/tailor-resume     → Paste your resume + paste a JD → get a tailored resume
+/resume-review     → Paste your resume → get specific feedback
+```
+
+No profile, no templates, no setup. Just in and out.
+
+---
+
+## Quick Start
+
+```bash
+# 1. Install Claude Code (if you haven't)
+# Visit: https://docs.anthropic.com/en/docs/claude-code
+
+# 2. Clone this repo
+git clone https://github.com/femibrin/office-hours.git
+cd office-hours
+
+# 3. Start Claude Code
+claude
+
+# 4. Type /start — it'll walk you through everything
+/start
+```
+
+That's it. No dependencies, no API keys beyond Claude Code. `/start` gives you a primer on Claude Code, shows you all the tools, and gets you going.
+
+---
+
+## What Makes This Different
+
+**Research before opinion.** Every agent has a research mandate. Before forming a position, agents execute web searches, fetch sources, and extract evidence. Generic advice is banned.
+
+**Structured output, not free text.** Every tool produces output in a defined schema: fit scores, path assessments, board deliberations, reference cards. Outputs are comparable across runs and scannable under pressure.
+
+**The coach's instinct.** Good career preparation goes beyond research. It starts with asking the right questions. What are you most worried about? Where's the gap in your story? These tools guide the thinking, instead of only producing answers.
+
+**Profile-aware.** Run `/baseline` once and every tool starts from a deep understanding of who you are. No cold starts.
+
+---
+
+## Who Built This
+
+**Femi Brinson** — Senior Product Manager building AI products at a Fortune 100 insurer. Ex-Google (Strategy & Ops), Wharton MBA. Has been doing career coaching since undergrad (career center at UGA, casing hundreds of students through Deloitte and MLT, leading professional development at Wharton) and built these tools to scale what he's always done in person.
+
+**Courtnee Futch** — The other half of Office Hours. Chef, entrepreneur, and the person who first said "this should be a product, something bigger than what you do for friends." The community ethos behind Office Hours comes from both of us.
+
+Built with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) by [Anthropic](https://www.anthropic.com/).
+
+</div>

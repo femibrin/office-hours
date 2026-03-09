@@ -1,0 +1,137 @@
+# Your First Session
+
+You've installed everything. Now let's use it.
+
+---
+
+## Start Claude Code
+
+Open your terminal and navigate to the Office Hours folder:
+
+```bash
+cd ~/Documents/office-hours
+claude
+```
+
+Claude Code starts up. You'll see a cursor waiting for input.
+
+---
+
+## Type `/start`
+
+```
+/start
+```
+
+This is the welcome screen. It gives you a quick primer on Claude Code (how to type, how slash commands work, how to stop) and shows you all the available tools.
+
+At the end, you'll see:
+
+**"What sounds right for you?"**
+1. I want the full experience — let's start with `/baseline`
+2. I just need to tailor my resume for a job — `/tailor-resume`
+3. I want my resume reviewed — `/resume-review`
+4. I have a specific job I want to analyze — `/assess-opportunity`
+5. Tell me more about a specific tool first
+
+Pick whichever feels right. Here's what each path looks like:
+
+---
+
+## Option 1: The Full Experience (`/baseline`)
+
+**Time:** 5-10 minutes
+
+This builds your career profile — the foundation that makes every other tool smarter. You'll be asked:
+
+1. **How to provide your background** — paste a resume, share a LinkedIn URL, talk through it, or point to a file
+2. **Follow-up questions** — about your career interests, strengths, energy, and constraints
+3. **Career directions** — the system identifies 2-3 possible paths from your background and asks what resonates
+
+At the end, you'll have a career profile saved on your machine. Every other tool uses it as context.
+
+**What's next after `/baseline`:**
+- `/explore-paths` — deep dive into those career directions with real market research
+- `/assess-opportunity` — analyze a specific job listing
+- `/resume-review` — get your resume reviewed
+
+---
+
+## Option 2: Quick Resume Tailoring (`/tailor-resume`)
+
+**Time:** 5-10 minutes
+
+No profile needed. You'll be asked for:
+
+1. **Your resume** — paste it, point to a file, or start from a blank template
+2. **The job listing** — share a URL or paste the job description
+
+The system analyzes the JD, figures out what to emphasize, and rewrites your bullets to match — without touching your formatting, layout, or structure. You get back a customized resume with a summary of what changed and why.
+
+---
+
+## Option 3: Resume Review (`/resume-review`)
+
+**Time:** 5-10 minutes
+
+No profile needed. Share your resume and get specific feedback:
+
+- Which bullets are weak and how to rewrite them
+- What's missing
+- Whether it tells a coherent story
+- Priority-ranked suggestions
+
+---
+
+## Things to Know
+
+**You're always in control.** Claude will ask before doing anything significant — creating files, searching the web, reading documents. You approve or deny each action. If something feels wrong, just say no.
+
+**Multiple-choice prompts.** At every decision point, you'll see numbered options. Type the number, say "option 2" (if using voice), or ignore the menu and just describe what you want in your own words. The menus are guides, not cages.
+
+**Your data stays on your machine.** Everything is saved to `~/.office-hours/` on your computer. Nothing is uploaded to any server (beyond the normal Claude API calls that power the AI).
+
+**You can stop anytime.** Press `Ctrl+C` to interrupt a command. Close the terminal to end the session. Your profile and files persist — pick up where you left off next time.
+
+**Slash commands are your entry points.** Here's the full list:
+
+| Command | What It Does | Needs Profile? |
+|---------|-------------|----------------|
+| `/start` | Welcome + Claude Code primer | No |
+| `/baseline` | Build your career profile | No — this creates it |
+| `/explore-paths` | Explore career directions + create resume templates | Yes |
+| `/assess-opportunity` | Analyze a job listing | Yes |
+| `/deep-dive-role` | Research a role or company | Optional |
+| `/career-board` | Get advice from a board of advisors | Yes |
+| `/tailor-resume` | Tailor your resume for a role | **No** |
+| `/prep-interview` | Prepare for an interview | Yes |
+| `/resume-review` | Get your resume reviewed | **No** |
+
+---
+
+## The Deep Path (Recommended)
+
+If you have 30-45 minutes and want the full experience:
+
+```
+/baseline          → Build your profile (5-10 min)
+    ↓
+/explore-paths     → Explore 2-3 career directions (10-15 min)
+                     → Creates a resume template for each direction
+    ↓
+/assess-opportunity → Analyze a specific job (5-10 min)
+    ↓
+/tailor-resume     → Tailor the right template for that job (5-10 min)
+```
+
+After this, you'll have:
+- A career profile
+- 2-3 resume templates optimized for different directions
+- An assessment of a real opportunity
+- A tailored resume ready to send
+
+That's a full career session in under an hour.
+
+---
+
+**You're ready. Open your terminal and type `/start`.**

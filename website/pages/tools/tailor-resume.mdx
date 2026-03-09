@@ -1,0 +1,79 @@
+# Tailor Resume
+
+> Tailor your resume for a specific job listing. Updates bullets, not formatting.
+
+## What It Does
+
+Tailor Resume takes your resume and a job description, analyzes the JD for key requirements and language patterns, scores your fit, selects the best resume template (if you have multiple from `/explore-paths`), and rewrites your bullets to emphasize relevance to the specific role. Your formatting, layout, and structure stay untouched. Only the content changes.
+
+If you've run the deep path (`/baseline` then `/explore-paths`), the system automatically picks the right template for each job listing. If you haven't, it works just as well with whatever resume you provide.
+
+## When to Use It
+
+- **You found a role you want to apply to.** Get a tailored resume in 5-10 minutes.
+- **You're applying to multiple roles.** Run it for each one — different emphasis every time.
+- **Quick path.** No profile needed. Just paste your resume and a JD.
+
+## What You'll Need
+
+- Your resume — pasted, file path, or already saved from a previous session
+- A job listing — URL, pasted text, or company + role name
+- 5-10 minutes
+- A career profile is helpful but not required
+
+## How It Works
+
+**Step 1: Provide your resume.** If you've used Office Hours before, the system finds your saved resume or templates. If not, you'll be asked to paste or point to a file. No resume at all? There's a blank template to start from.
+
+**Step 2: Share the job listing.** Paste a URL and it's fetched automatically. Or paste the text directly.
+
+**Step 3: Fit scoring (if profile exists).** The system scores skill match, experience match, and direction match. If fit is below 7/10, it flags the gaps and asks if you want to proceed anyway.
+
+**Step 4: Template selection (if multiple exist).** If you have resume templates from `/explore-paths`, the system picks the best one for this JD and explains why. You can override.
+
+**Step 5: Edit plan.** The system presents its approach:
+- Which template to use
+- Edit intensity (light touch, moderate, or heavy rewrite)
+- Top 3 planned changes
+
+You approve, adjust, or give more context.
+
+**Step 6: Tailoring.** Bullets are rewritten to emphasize relevance. Keywords are mirrored from the JD where authentic, and the most relevant experience leads each section. Skills line is updated. Formatting stays sacred.
+
+**Step 7: Review together.** You see the result and can request adjustments on the spot.
+
+## What the Output Looks Like
+
+A tailored resume saved to `~/.office-hours/tailored-resumes/`, plus a customization summary:
+
+- **Template used** and why
+- **Edit intensity** applied
+- **Fit score**
+- **Key changes** — what changed and the reasoning
+- **Keywords added** — JD terminology integrated naturally
+- **The full tailored resume** in markdown
+
+## Core Principles
+
+- **Formatting is sacred.** Section order, fonts, margins, layout, company names, titles, dates — none of it changes.
+- **Content changes only.** Bullet text, bullet order, keywords, skills line.
+- **No fabrication.** Experience isn't inflated. Skills you don't have aren't added.
+- **Your voice is preserved.** If your resume is direct and metrics-heavy, it stays that way. If it's narrative, that's maintained.
+- **One page default.** Two pages only if you ask or have 15+ years of highly relevant experience.
+
+## Example Usage
+
+```
+/tailor-resume https://boards.greenhouse.io/company/jobs/12345
+```
+
+```
+/tailor-resume
+```
+Then paste your resume and JD when prompted.
+
+## What to Do Next
+
+- **[Prep Interview](/tools/prep-interview)** — resume sent? Prepare for the interview.
+- **[Assess Opportunity](/tools/assess-opportunity)** — want to analyze the role more deeply before applying
+- **[Resume Review](/tools/resume-review)** — want general feedback before tailoring for specific roles

@@ -1,0 +1,72 @@
+# Assess Opportunity
+
+> Analyze a job listing: company research, fit scoring, honest assessment.
+
+## What It Does
+
+Assess Opportunity takes a job listing and runs three research agents in parallel: one on the company, one on the role, and one on your fit. You get a structured assessment with fit scores across four dimensions (skill match, experience match, direction match, energy match), a company snapshot, red flags, compensation context, and an honest recommendation on whether to apply.
+
+This isn't cheerleading. A 4/10 fit is a 4/10 fit. The tool says so, explains why, and helps you decide if it's still worth pursuing.
+
+## When to Use It
+
+- **You found a job listing and want a quick sanity check.** Is this worth your time?
+- **You're comparing multiple opportunities.** Structured scoring makes them comparable.
+- **Before tailoring your resume.** Know the fit before investing the effort.
+
+## What You'll Need
+
+- A completed career profile (run `/baseline` first)
+- A job listing — URL, pasted text, or just the company and role name
+- 5-10 minutes
+
+## How It Works
+
+**Step 1: Share the opportunity.** Paste a URL, describe the role, or share the full JD text. The system fetches and parses it automatically.
+
+**Step 2: Three parallel research agents launch:**
+- **Company Research** — what they do, their stage, recent news, culture signals, financial health
+- **Role Analysis** — what the role actually entails day-to-day, where it sits in the org, compensation benchmarks, red flags
+- **Fit Assessment** — your skills, experience, career direction, and energy mapped against the requirements
+
+**Step 3: Synthesized assessment** with a clear recommendation.
+
+## What the Output Looks Like
+
+| Dimension | Score | Key Signal |
+|-----------|-------|------------|
+| Skill match | X/10 | Strongest match + biggest gap |
+| Experience match | X/10 | Alignment or mismatch |
+| Direction match | X/10 | Does this advance your goals? |
+| Energy match | X/10 | Day-to-day alignment |
+| **Overall** | **X/10** | |
+
+Plus:
+- **Company snapshot** — plain-language description, stage, recent signals
+- **What works** — specific strengths mapped to specific requirements
+- **What's a stretch** — gaps with strategies to address them
+- **Red flags** — things to investigate, not necessarily dealbreakers
+- **Compensation context** — benchmarks vs. your floor
+- **The honest take** — would a good career coach say "go for it," "proceed with caution," or "skip it"?
+
+## Example Usage
+
+```
+/assess-opportunity https://boards.greenhouse.io/company/jobs/12345
+```
+
+```
+/assess-opportunity Stripe Product Manager
+```
+
+```
+/assess-opportunity
+```
+Then paste the JD when prompted.
+
+## What to Do Next
+
+- **[Tailor Resume](/tools/tailor-resume)** — if the fit is strong, tailor your resume for this role
+- **[Deep Dive Role](/tools/deep-dive-role)** — want more context on the company or team before deciding
+- **[Career Board](/tools/career-board)** — torn on whether to pursue it? Get structured advice
+- **[Prep Interview](/tools/prep-interview)** — already have an interview? Jump straight to prep

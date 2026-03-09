@@ -1,0 +1,85 @@
+# Prep Interview
+
+> Multi-agent interview prep: company research, role analysis, email search, and tailored questions.
+
+## What It Does
+
+Prep Interview launches four research agents in parallel: company deep dive, role analysis, email correspondence search (if Gmail is connected), and question generation with STAR-format response outlines drawn from your actual experience. The output is a full prep document plus a one-page quick reference card designed to be reviewed 5 minutes before the call.
+
+Speed matters here. People run this the night before or morning of. The system gets to the prep doc fast.
+
+## When to Use It
+
+- **You have an interview coming up.** Phone screen, technical, panel, final — any stage.
+- **You want structured prep that goes beyond "research the company."** Likely questions, response outlines, fit narrative, and talking points.
+- **You want to feel prepared without spending 3 hours on it.** 5-10 minutes.
+
+## What You'll Need
+
+- A completed career profile (run `/baseline` first)
+- The company and role name, or a job listing URL
+- Interview details — when, what stage, who you're meeting with (if known)
+- 5-10 minutes
+- Optional: Gmail MCP connection (for recruiter email search)
+
+## How It Works
+
+**Step 1: Share the details.** Company, role, interview date, stage (phone screen, panel, etc.), and who you're meeting with if you know.
+
+**Step 2: Four parallel research agents launch:**
+
+- **Agent 1: Company Deep Dive** — mission, products, recent news, culture signals, competitors. Produces specific talking points you can reference.
+- **Agent 2: Role Analysis** — JD parsing, team ownership, hiring manager (LinkedIn), similar roles at peer companies. Produces a fit narrative mapping your experience to requirements.
+- **Agent 3: Email Search** (if Gmail connected) — searches for recruiter correspondence, scheduling details, comp mentions, and context the recruiter shared about the role.
+- **Agent 4: Questions & Talking Points** — generates 8-10 likely questions (behavioral, technical, situational) with STAR-format response outlines using specific examples from your background. Plus 3-5 questions for you to ask them.
+
+**Step 3: Full prep document** with everything synthesized, plus a quick reference card.
+
+## What the Output Looks Like
+
+### Full Prep Document
+- **Recruiter Correspondence** — what was discussed, comp mentions, context
+- **Company Overview** — with specific talking points to reference
+- **The Role** — what you'd actually do, team context, success metrics
+- **Your Fit Narrative** — the one-sentence story connecting your background to this role
+- **Likely Questions** (8-10) — each with: why they ask, your angle, and a STAR response outline
+- **Questions to Ask Them** — specific to this company and role, not generic
+
+### Quick Reference Card
+Designed to fit on one screen. Review it 5 minutes before the call:
+
+| | |
+|-|-|
+| **Company** | One-line description |
+| **Role** | Title + team |
+| **Interviewer(s)** | Names if known |
+| **Your "Why this company"** | One sentence |
+| **Your "Why this role"** | One sentence |
+| **Top 3 talking points** | Key things to hit |
+| **Your question for them** | Your best question |
+| **Concern to address** | Biggest gap + framing |
+
+## Example Usage
+
+```
+/prep-interview Stripe Product Manager
+```
+
+```
+/prep-interview https://boards.greenhouse.io/company/jobs/12345
+```
+
+```
+/prep-interview
+```
+Then describe the interview when prompted.
+
+## What to Do Next
+
+After reviewing the prep doc, the system offers:
+
+1. **Practice a specific question** — drill on it with back-and-forth
+2. **Adjust the fit narrative** — reframe how you're positioning yourself
+3. **Add a specific story** — include an example you want to use
+4. **Generate more questions** — for a specific interviewer
+5. **You're ready** — go nail it

@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "getting-started": {
+    "title": "Getting Started"
+  },
+  "tools": {
+    "title": "Tools"
+  },
+  "demo": {
+    "title": "Demo"
+  }
+}

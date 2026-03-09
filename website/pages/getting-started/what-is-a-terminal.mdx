@@ -1,0 +1,143 @@
+# What Is a Terminal?
+
+If you've never used a terminal before, this page is for you. If you already know, skip to [Installation](/getting-started/installation).
+
+---
+
+## The Short Version
+
+A terminal is a text-based way to talk to your computer. Instead of clicking icons and menus, you type commands.
+
+That's it. It's not coding. It's typing sentences and pressing Enter.
+
+---
+
+## What It Looks Like
+
+When you open the Terminal app on your Mac, you'll see something like this:
+
+```
+yourname@MacBook ~ %
+```
+
+That blinking cursor is waiting for you to type something. You type a command, press Enter, and the computer does something. For example:
+
+```
+ls
+```
+This lists the files in your current folder. Not scary.
+
+```
+cd Documents
+```
+This moves you into your Documents folder. Like double-clicking a folder, but with text.
+
+That's the level of terminal knowledge you need for Office Hours. You'll type a few setup commands (which we give you to copy and paste), and then Claude Code takes over from there.
+
+---
+
+## Why a Terminal? (And Why It's Not as Scary as It Sounds)
+
+You might be wondering: why does this run in a terminal instead of a nice app with buttons?
+
+The short answer: **Claude Code is the nice interface.** Once you start it, you're just having a conversation. You type (or speak) in plain English, pick from multiple-choice options, and get structured output back. The terminal is just the doorway you walk through to get there.
+
+Think of it this way:
+- **The terminal** is like your car's ignition — you turn it on, but you don't think about it while you drive
+- **Claude Code** is the driving experience — it's what you actually interact with
+- **Office Hours** is the destination — the career tools that do the real work
+
+You need the terminal for about 60 seconds: to navigate to a folder and type `claude`. After that, you're in a conversation. The system asks you questions, gives you numbered options, and produces documents. It feels more like texting a very smart friend than "using a terminal."
+
+And if you use [Wispr Flow](https://www.wispr.flow/) for voice input, you're literally just talking to your computer. The terminal becomes invisible.
+
+---
+
+## How to Open It
+
+**Mac:**
+1. Press `Cmd + Space` (this opens Spotlight search)
+2. Type `Terminal`
+3. Press `Enter`
+
+A window will appear with a dark or light background and a blinking cursor. That's your terminal.
+
+**Tip:** Once it's open, you can drag the Terminal icon to your Dock so it's easy to find next time.
+
+**Windows:**
+1. Press the Windows key
+2. Type `PowerShell`
+3. Press `Enter`
+
+---
+
+## The Five Commands You Need to Know
+
+You really only need five commands for Office Hours. Here they are:
+
+| Command | What It Does | Example |
+|---------|-------------|---------|
+| `cd` | Move into a folder | `cd Documents/office-hours` |
+| `ls` | List files in current folder | `ls` |
+| `claude` | Start Claude Code | `claude` |
+| `Ctrl+C` | Stop whatever's running | (just press the keys) |
+| `Cmd+T` | Open a new terminal tab | (just press the keys) |
+
+That's it. Everything else, Claude handles for you.
+
+---
+
+## "But I'm Not Technical"
+
+You don't need to be. Here's what using Office Hours actually looks like:
+
+1. You open Terminal
+2. You type `cd Documents/office-hours` and press Enter
+3. You type `claude` and press Enter
+4. You type `/start` and press Enter
+5. From here, it's a conversation. You talk (or type), Claude responds with options, you pick one.
+
+It's like texting, but in a terminal window instead of iMessage. The multiple-choice prompts mean you're often just typing "1" or "2" rather than full sentences.
+
+If you use [Wispr Flow](https://www.wispr.flow/) for voice input, you don't even need to type. You just talk to your computer and it types for you.
+
+---
+
+## Common Fears (and Why They're Fine)
+
+**"What if I break something?"**
+You won't. The commands we use are read-only or create new files. Nothing deletes anything. And Claude asks for your permission before doing anything significant.
+
+**"What if I type the wrong thing?"**
+Just press `Ctrl+C` to cancel and try again. Or close the terminal and start over. There's no wrong answer.
+
+**"What if I get lost?"**
+Type `pwd` (stands for "print working directory") to see where you are. Then `cd ~/Documents/office-hours` to get back to the Office Hours folder.
+
+**"What's the ~ symbol?"**
+It means your home folder. `~/Documents` = your Documents folder. You'll see it a lot. It's just a shortcut.
+
+**"What's the difference between Terminal and the apps I normally use?"**
+Apps give you buttons to click. Terminal gives you a place to type. Both talk to the same computer. Terminal just skips the visual interface and goes straight to text. For AI tools like Claude Code, text is actually the most natural way to interact.
+
+---
+
+## Try It Right Now
+
+Open Terminal (Cmd + Space, type "Terminal", press Enter) and type:
+
+```
+echo "Hello, I'm using the terminal!"
+```
+
+Press Enter. You should see your message echoed back. Congratulations — you just used the terminal.
+
+Now type:
+
+```
+ls ~/Documents
+```
+
+You'll see a list of everything in your Documents folder. Same stuff you'd see in Finder, just as text.
+
+That's the skill level you need. Let's install the tools.

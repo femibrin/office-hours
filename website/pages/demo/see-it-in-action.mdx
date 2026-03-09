@@ -1,0 +1,108 @@
+# See It In Action
+
+To show what Office Hours actually does, we ran through two complete workflows using a real person's LinkedIn profile as input.
+
+---
+
+## The Setup
+
+**Shirley Akoi** is a Strategy & Ops Lead at Google with 8 years there, plus earlier experience at Citi (VP level) and International Commercial Bank in Ghana. She shared her LinkedIn profile and answered follow-up questions about where she wants to go next.
+
+We ran `/baseline` to build her career profile, then `/explore-paths` to research three career directions.
+
+---
+
+## `/baseline` — Career Profile Intake
+
+**Input:** Shirley shared her LinkedIn PDF (4 pages) and answered follow-up questions about her career interests, energy, and constraints.
+
+### The Conversation Flow
+
+1. **"How would you like to get started?"** — Shirley shared her LinkedIn PDF.
+
+2. **The system extracted her career arc:** International Commercial Bank in Ghana, then Citi (nearly 3 years, VP level), then Google (8 years, Strategy & Ops Lead).
+
+3. **Follow-up questions surfaced what the resume doesn't show:**
+   - People come to her to understand how planning works at Google
+   - She loves strategy and innovation — tried a healthcare startup with friends
+   - She hates corporate politics — can navigate them, but wants freedom and ownership
+   - She's considered franchise ownership
+
+4. **Multiple-choice direction prompt:** "Based on what you've shared, I see a few possible directions. Which resonates most?"
+   - She picked: Strategy & Ops at another tech company, Startup/entrepreneurship, and Franchise ownership
+
+5. **Non-negotiables:** Atlanta, L5-equivalent comp (flexible if clear path to surpass), industry agnostic, no weird hours, travel-friendly
+
+### The Output
+
+A structured career profile covering experience arc, core skills, domains, seniority, career directions, strengths, energizers/drains, non-negotiables, and open questions.
+
+**Key insight from the profile:**
+
+> "Shirley is the person who figures out how complex organizations plan, allocate resources, and make decisions. She's excellent at navigating organizational complexity — and she's tired of it."
+
+---
+
+## `/explore-paths` — Career Direction Discovery
+
+**What it did:** Launched three parallel research agents, one for each career direction, to gather real market data before forming any opinions.
+
+### Path 1: Strategy & Ops at Another Tech Company
+**Fit: 8/10**
+
+- Atlanta has a deep bench: Home Depot, Cox Enterprises, Calendly, SalesLoft, ICE, Delta, Global Payments/Fiserv/Visa cluster
+- Her Google L5 maps to Director level externally — actually a title upgrade
+- Comp range: $245K-$350K+ TC. Salesforce ($285-352K), Home Depot ($263-339K), and Fiserv (~$339K) all clear her floor
+- Risk: might solve the politics problem at one company and recreate it at another
+- Best bets for less politics: Cox (private), Calendly (mid-size), SalesLoft (strong culture), Delta (ops-driven)
+
+### Path 2: Startup Operator — COO / Head of Ops
+**Fit: 7/10**
+
+- Atlanta startup ecosystem is #9 nationally, $756M raised in 2025 (up 23%)
+- Her profile (finance + ops + strategy at Google scale) makes her a premium operator hire — Series A founders struggle to find this
+- Best fit: COO or VP Ops at a Series B fintech or B2B SaaS startup in Atlanta
+- Comp: $225-310K cash + 0.5-1.5% equity at Series B. Equity could be worth $500K-$1.5M+ at exit
+- Key networks: Atlanta Tech Village, Venture Atlanta, Engage portfolio, Valor Ventures
+- Series B is the sweet spot — post-product-market-fit, more predictable hours, closer to big-tech comp parity
+
+### Path 3: Franchise Ownership or Business Acquisition
+**Fit: 6-7/10**
+
+- Standout franchise: City Wide Facility Solutions (B2B management model, $575-720K earnings at scale)
+- But the stronger financial play may be self-funded acquisition of an existing Atlanta service business ($1-3M revenue) — immediate cash flow, 100% equity, no royalty drag
+- Year 1 comp is the challenge: franchise $80-150K, acquisition $190K + equity. Takes 3-5 years to match/surpass current comp
+- Atlanta is a strong market — called a "franchising Mecca" with underserved suburban areas
+
+### The Pushback
+
+The system went beyond presenting options. It challenged her thinking:
+
+> "You said you hate politics but can navigate them. That's a superpower, and more than a burden. The startup and acquisition worlds have politics too — investor politics, partner politics, vendor politics. The question isn't 'where are there no politics?' — it's 'which politics do I find tolerable?'"
+
+> "8 years at Google is a long time. Something kept you there. Understanding what that was matters — because if it's comp and stability, paths 2 and 3 will feel uncomfortable fast."
+
+---
+
+## What This Demonstrates
+
+**Research before opinion.** Each path was grounded in real market data: specific company comp ranges, ecosystem statistics, franchise earnings data. Not vibes.
+
+**Profile-aware analysis.** The system knew Shirley's background, comp expectations, location constraints, and what drains her. Every recommendation was filtered through that context.
+
+**Honest pushback.** A good career coach challenges assumptions and surfaces tensions, rather than validating every instinct. The system flagged the politics paradox and the comp gap in the franchise path before Shirley had to discover them herself.
+
+**Structured, comparable output.** Fit scores, comp ranges, and risk profiles side by side. A decision framework, not a wall of text.
+
+---
+
+## Try It Yourself
+
+```bash
+git clone https://github.com/femibrin/office-hours.git
+cd office-hours
+claude
+/start
+```
+
+Start with `/baseline` to build your profile, then run `/explore-paths` to see what's possible.
