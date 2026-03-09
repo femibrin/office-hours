@@ -1,10 +1,10 @@
 # Office Hours
 
-AI-powered tools for people navigating what's next — built for community, powered by [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
+AI-powered tools for people navigating what's next. Built for community, powered by [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
-Office Hours started the way a lot of good things start — with people showing up for each other. Courtnee and I have always held "office hours" — the kind where you text your friend "hey, can I get 30 minutes?" and end up talking through a career decision, rewriting resume bullets, or prepping for an interview. We both believe that your network is your most valuable asset, and that showing up for people is how you build it.
+Office Hours started the way a lot of good things start — with people showing up for each other. Courtnee and I have always held "office hours" — the kind where you text your friend "hey, can I get 30 minutes?" and end up talking through a career decision, rewriting resume bullets, or prepping for an interview. We both believe that your ~network~ community is your most valuable asset, and that showing up for people is how you build it.
 
-These tools are that practice, systematized. They encode how I actually think about career positioning, built on a decade of coaching, mentoring, and professional development work. The career tools are where we started, but Office Hours is bigger than that — it's a way our community gives back, making the kind of coaching that used to require knowing the right people accessible to everyone in our circle.
+These tools are that practice, systematized. They encode how I actually think about career positioning, built on a decade of coaching, mentoring, and professional development work. The career tools are where we started, but Office Hours is bigger than that — it's a way our community gives back, making the kind of coaching that used to require knowing the right people accessible to everyone in our circle. In the spirit of that, when you use it... leave me / us some feedback! 
 
 **Femi Brinson** — Senior Product Manager building AI products at a Fortune 100 insurer. Ex-Google (Strategy & Ops), Wharton MBA.
 
