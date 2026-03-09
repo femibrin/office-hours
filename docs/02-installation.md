@@ -10,6 +10,8 @@ Never used a terminal before? Read [What Is a Terminal? →](./00-what-is-a-term
 
 **Mac:** Press `Cmd + Space` to open Spotlight. Type `Terminal`. Press Enter.
 
+**Windows:** Press the Windows key. Type `PowerShell`. Press Enter. (Or install [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store for a nicer experience.)
+
 You'll see a window with a blinking cursor. This is where everything happens.
 
 ---
@@ -37,10 +39,7 @@ Don't have Homebrew? Install it first:
 ```
 Then run `brew install node`.
 
-Windows:
-```powershell
-choco install nodejs
-```
+Windows: Download the installer from [nodejs.org](https://nodejs.org/) and run it. Choose the LTS version.
 
 After installing, close and reopen your terminal, then run `node --version` again to verify.
 
@@ -113,9 +112,7 @@ xcode-select --install
 ```
 Follow the prompts, then try the `git clone` command again.
 
-**Don't have GitHub access?** If the clone fails with a permission error, Femi needs to add you as a collaborator. Send your GitHub username to Femi and you'll get an invite.
-
-**Don't have a GitHub account?** [Create one here →](https://github.com/join) (free), then send Femi your username.
+**Don't have a GitHub account?** You don't need one. You can download the repo directly from [github.com/femibrin/office-hours](https://github.com/femibrin/office-hours) by clicking the green "Code" button and choosing "Download ZIP." Unzip it and continue from there.
 
 ---
 
@@ -144,9 +141,6 @@ Close and reopen your terminal. If it still doesn't work, try opening a new term
 
 **"command not found: node"**
 Node.js isn't installed. Go back to Step 2.
-
-**"Permission denied" on git clone**
-You need to be added as a collaborator on the GitHub repo. Send Femi your GitHub username.
 
 **Authentication issues with Claude**
 Make sure your Claude subscription is active at [claude.ai](https://claude.ai). Then run `claude` and re-authenticate.

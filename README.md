@@ -10,6 +10,23 @@ These tools are that practice, systematized. They encode how I actually think ab
 
 ---
 
+## Getting Started
+
+New to all of this? Start here. You don't need to be technical.
+
+1. **[What Is a Terminal?](./docs/00-what-is-a-terminal.md)** — 2 minutes. Covers what a terminal is, how to open one, and the 5 commands you need.
+2. **[Installation](./docs/02-installation.md)** — 15 minutes. Install Node.js, Claude Code, and get your Claude subscription. Works on Mac and Windows.
+3. **[Your First Session](./docs/03-first-session.md)** — What to expect when you type `/start`.
+
+Or read the **[full introduction](./docs/01-introduction.md)** for an overview of everything Office Hours can do.
+
+**Want a video walkthrough of Claude Code?** These are helpful if you've never used it:
+- [Claude Code Tutorial for Beginners (2026)](https://dev.to/ayyazzafar/claude-code-tutorial-for-beginners-2026-from-installation-to-building-your-first-project-1lma)
+- [How to Start with Claude Code (The Easiest Way)](https://theaibreak.substack.com/p/tutorial-how-to-start-with-claude) — browser-based, no terminal needed to try it
+- [Official Claude Code Docs](https://code.claude.com/docs/en/quickstart)
+
+---
+
 ## Quick Start
 
 ```bash
@@ -145,19 +162,9 @@ The commands in `.claude/commands/` are thin wrappers — they load the correspo
 
 ---
 
-## Getting Started
-
-New to all of this? The `docs/` folder walks you through everything step by step:
-
-1. **[What Is a Terminal?](./docs/00-what-is-a-terminal.md)** — Never used a terminal? Start here. 2 minutes.
-2. **[Installation](./docs/02-installation.md)** — Install Node.js, Claude Code, and get your subscription. 15 minutes.
-3. **[Your First Session](./docs/03-first-session.md)** — What to expect when you type `/start`.
-
-Or read the **[full introduction](./docs/01-introduction.md)** for an overview of what Office Hours can do.
-
 ## Requirements
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (free to install, requires a Claude plan — $20/month)
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (free to install, requires a Claude plan, $20/month)
 - That's it
 
 **Optional but nice:**
