@@ -16,6 +16,8 @@ Works great typed or spoken. Share your resume and say what kind of feedback you
 1. Career profile at `~/.office-hours/profile.md` is helpful (provides context on goals) but not required.
 2. Get the resume — file path, pasted text, or ask: **"Share your resume — paste it, drop a file path, or tell me where to find it."**
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Context
 
 **"What kind of review do you want?"**
@@ -116,6 +118,10 @@ Be ready to:
 - Generate a revised version of the full resume if they want
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/reviews/[date]-resume-review.md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Review saved to `~/.office-hours/reviews/[date]-resume-review.md`
 - Optional: revised resume if requested

@@ -16,6 +16,8 @@ Works great typed or spoken. Describe your situation — the system figures out 
 1. Check for career profile at `~/.office-hours/profile.md`. If missing, run `/baseline` first.
 2. Read the profile.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Understand the Moment
 
 Ask: **"What's the decision or situation you're navigating?"**
@@ -172,6 +174,10 @@ The board session isn't a PDF drop — it's the start of a conversation. Be read
 - Shift to action mode if they're ready
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/board-sessions/[date]-[topic-slug].md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Board session saved to `~/.office-hours/board-sessions/[date]-[topic-slug].md`
 

@@ -16,6 +16,8 @@ Works great typed or spoken. If you use [Wispr Flow](https://www.wispr.flow/) or
 1. Check if `~/.office-hours/` directory exists. Create it if not.
 2. Check if `~/.office-hours/profile.md` exists. If it does, ask: "You already have a profile. Want to update it or start fresh?"
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Gather Materials
 
 Ask the user to provide **any combination** of:
@@ -165,6 +167,10 @@ Then present next steps:
 This gives them a clear on-ramp to the rest of the toolkit.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/profile.md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - `~/.office-hours/profile.md` — the career profile
 - Confirmation message with next steps

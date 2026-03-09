@@ -29,6 +29,8 @@ Works great typed or spoken. Share the link and say what you're thinking — the
    If they choose 1 or 2, save to `~/.office-hours/templates/base-resume.md`
    If they choose 3, copy the blank template from `templates/resume-template.md` in this repo to `~/.office-hours/templates/base-resume.md` and walk them through filling it in before tailoring.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Get the Job Description
 
 **If URL provided:**
@@ -185,6 +187,10 @@ Common adjustments:
 Incorporate feedback and regenerate.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/tailored-resumes/[company]-[role]-[date].md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Tailored resume saved to `~/.office-hours/tailored-resumes/[company]-[role]-[date].md`
 - Optional DOCX if tools are available

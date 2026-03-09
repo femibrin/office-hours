@@ -26,6 +26,14 @@ New to Claude Code? Run `/start` — it walks you through everything.
 
 Otherwise, run `/baseline` first. It builds a career profile that every other tool uses as context. You only need to do this once.
 
+## Auto-Save Rule
+
+**Always save output automatically.** Do not wait for the user to ask. At the end of every tool, save the output to the appropriate `~/.office-hours/` subdirectory and confirm what was saved and where:
+
+> "Saved to `~/.office-hours/[path]`. You can pick this up anytime by running Claude Code from the office-hours folder."
+
+Create the `~/.office-hours/` directory and any subdirectories if they don't exist. This is critical because users may close their terminal or start a new session and expect to find their work.
+
 ## User Data
 
 All your data is stored locally at `~/.office-hours/`:

@@ -16,6 +16,8 @@ Works great typed or spoken. Just say the company and role, or describe what you
 
 1. Career profile at `~/.office-hours/profile.md` is helpful but not required for this skill. If it exists, read it to personalize the research. If not, proceed — this skill works standalone.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Clarify Scope
 
 If the user gave a specific role, confirm: **"Got it — deep dive on [Role] at [Company]. Anything specific you want me to focus on, or should I go broad?"**
@@ -137,6 +139,10 @@ Present the deep dive, then:
 Be ready to research specific people, compare companies, or transition to other skills.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/deep-dives/[company]-[role]-[date].md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Deep dive saved to `~/.office-hours/deep-dives/[company]-[role]-[date].md`
 

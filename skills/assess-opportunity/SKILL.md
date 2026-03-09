@@ -17,6 +17,8 @@ Works great typed or spoken. Share the link or describe the role — the system 
 1. Check for career profile at `~/.office-hours/profile.md`. If missing, run `/baseline` first — fit scoring requires knowing who you are.
 2. Read the profile.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Get the Opportunity
 
 **If URL provided:**
@@ -140,6 +142,10 @@ Present the assessment, then:
 Be ready to go deeper on red flags, draft outreach, or connect back to their path exploration.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/assessments/[company]-[role]-[date].md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Assessment saved to `~/.office-hours/assessments/[company]-[role]-[date].md`
 - Recommendation on whether to proceed

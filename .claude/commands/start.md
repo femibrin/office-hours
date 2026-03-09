@@ -19,8 +19,8 @@ You're inside **Claude Code** — an AI assistant that runs in your terminal. He
 - **Type naturally.** You can ask questions, give instructions, or just talk. It's a conversation.
 - **Slash commands** start workflows. Type `/baseline` to build your career profile, `/assess-opportunity` to analyze a job, etc.
 - **You're always in control.** Claude will ask before doing anything significant (creating files, searching the web). You approve or deny each action.
-- **Your data stays local.** Everything is saved to `~/.office-hours/` on your machine. Nothing is uploaded anywhere.
-- **You can stop anytime.** Press `Ctrl+C` to interrupt, or just close the terminal.
+- **Everything saves automatically.** Your career profile, explorations, tailored resumes, and prep docs all save to `~/.office-hours/` on your machine. Close the terminal whenever you want. Next time you run Claude Code from this folder, all your work is still there.
+- **You can stop anytime.** Press `Ctrl+C` to interrupt, or just close the terminal. Nothing is lost.
 
 **Voice input (optional but great):**
 

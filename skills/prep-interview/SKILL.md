@@ -18,6 +18,8 @@ Works great typed or spoken. Just say the company and role, or share a link.
 2. Read the profile.
 3. Check if Gmail MCP is available (for recruiter email search). If not, skip email search — don't block the rest.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Gather Context
 
 Ask: **"When's the interview? And do you know who you're meeting with?"**
@@ -169,6 +171,10 @@ Present the prep doc, then:
 Be ready to run mock Q&A, adjust angles, or deep-dive on specific concerns.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/interview-prep/[company]-[role]-[date].md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Full prep doc saved to `~/.office-hours/interview-prep/[company]-[role]-[date].md`
 - Quick reference card (also included in the doc, but designed to stand alone)

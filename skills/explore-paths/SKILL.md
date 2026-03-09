@@ -18,6 +18,8 @@ User runs `/explore-paths` with optional context:
 1. Check for career profile at `~/.office-hours/profile.md`. If missing, run `/baseline` first.
 2. Read the profile to ground the exploration.
 
+**Note:** All output from this tool saves automatically. You can close the terminal at any point after completion and find your work at `~/.office-hours/`.
+
 ## Phase 1: Understand the Exploration
 
 If the user provided context, acknowledge it and build from there.
@@ -148,6 +150,10 @@ Tell them: **"You now have [N] resume templates. When you run `/tailor-resume`, 
 This is the highest-leverage output of the exploration — it turns career direction into resume infrastructure.
 
 ## Output
+
+**Auto-save is mandatory.** Do not ask the user if they want to save. Save automatically and confirm:
+
+> "Saved to `~/.office-hours/explorations/[date]-paths.md`. You can pick this up anytime — just run Claude Code from the office-hours folder."
 
 - Path exploration document saved to `~/.office-hours/explorations/[date]-paths.md`
 - Resume templates per direction (if created) saved to `~/.office-hours/templates/`
