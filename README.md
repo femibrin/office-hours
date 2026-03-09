@@ -20,7 +20,8 @@ New to all of this? Start here. You don't need to be technical.
 
 Or read the **[full introduction](./docs/01-introduction.md)** for an overview of everything Office Hours can do.
 
-**Want a video walkthrough of Claude Code?** These are helpful if you've never used it:
+**New to Claude Code?** These resources will get you up to speed:
+- [Claude Code for Everyone](https://ccforeveryone.com/) — Carl Vellotti's intro course, built for non-technical users
 - [Claude Code Tutorial for Beginners (2026)](https://dev.to/ayyazzafar/claude-code-tutorial-for-beginners-2026-from-installation-to-building-your-first-project-1lma)
 - [How to Start with Claude Code (The Easiest Way)](https://theaibreak.substack.com/p/tutorial-how-to-start-with-claude) — browser-based, no terminal needed to try it
 - [Official Claude Code Docs](https://code.claude.com/docs/en/quickstart)
